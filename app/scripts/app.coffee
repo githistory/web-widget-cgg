@@ -1,0 +1,6 @@
+angular.module 'widget', [
+
+]
+
+.config ()->
+

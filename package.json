@@ -1,0 +1,30 @@
+{
+  "name": "web-widget",
+  "version": "0.1.0",
+  "description": "An opinionated, best practice only boilerplate for building embeddable web widgets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/githistory/web-widget"
+  },
+  "author": "William Huang",
+  "license": "Apache",
+  "dependencies": {
+    "aang-template-brunch": "^1.7.6",
+    "auto-reload-brunch": "^1.8.0",
+    "brunch": "^1.8.5",
+    "clean-css-brunch": "^1.7.2",
+    "coffee-script-brunch": "^1.8.2",
+    "css-brunch": "^1.7.0",
+    "jade-pages-brunch": "^1.7.9",
+    "javascript-brunch": "^1.7.1",
+    "less-brunch": "^1.8.1",
+    "ng-annotate-brunch": "^1.7.2",
+    "sass-brunch": "^1.8.11",
+    "stylus-brunch": "^1.8.1",
+    "uglify-js-brunch": "^1.7.8"
+  }
+}
