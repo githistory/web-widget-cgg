@@ -9,7 +9,6 @@ exports.config =
     javascripts:
       joinTo:
         'js/widget.js': /^(app|bower_components)/
-        'test/tests.js': /^test/
       order:
         after: [
           'app/scripts/**/*.coffee'
@@ -36,7 +35,7 @@ exports.config =
       ignore: [/^.*\.static\.jade/]
     jadePages:
       destination: (path) ->
-        path.replace /^(.*)\.static\.jade$/, '$1.html'
+        path.replace /^app\/(.*)\.static\.jade$/, '$1.html'
       pattern: /^.*\.static\.jade/
       jade:
         pretty: true

@@ -44,7 +44,7 @@ This watches any changes in your source code, regenerates target code in dist fo
 
 If you don't already have a server started to serve static files, you can simply do
 ```shell
-brunch watch --server
+brunch watch --server --port 8080
 ```
 For more commands / options consult brunch documentation.
 
@@ -72,16 +72,6 @@ Copyright
 Copyright © 2015 by William Huang
 
 All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
-
-
-
-
-
-
-
-
-
-
 
 
 [lk-brunch-io]: http://brunch.io 'Brunch.IO'

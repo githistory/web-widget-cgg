@@ -17,7 +17,7 @@ module.exports = (config) ->
     files: [
       'dist/js/widget.js'
       'bower_components/angular-mocks/angular-mocks.js'
-      'test/**/*.coffee'
+      'test/unit/**/*.*'
     ]
 
 
