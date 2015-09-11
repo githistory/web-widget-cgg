@@ -57,6 +57,12 @@ npm test
 ```
 This starts [karma][lk-karma-io] with Chrome as the js engine. It watches for changes in source code and auto-runs test cases under test folder. [Jasmine][lk-jasmine-io] is the default assertion library.
 
+Also included in the example is an E2E test case against index.html. You can run it using protractor like this
+```shell
+protractor protractor.conf.coffee
+```
+Be sure to consult protractor documentation for the setup before issuing above command.
+
 
 Notes
 -----
