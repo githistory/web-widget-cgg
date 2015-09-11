@@ -2,14 +2,9 @@ doctype html
 
 html
   head
-    link(rel='stylesheet', href='css/widget.css')
-    script(src='js/widget.js')
+    link(rel='stylesheet', href='../css/widget.css')
+    script(src='../js/widget.js')
 
-  body
-    div(ng-include='"widget"')
-
-    script.
-      $(function(){
-        angular.bootstrap(document.body, ['widget']);
-      });
+  body(ng-app='widget')
+    div(ng-include='"templates/widget"')
 
