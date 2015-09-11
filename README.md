@@ -1,6 +1,19 @@
 Ever thought about embedding your web based widgets into any website? This is a powerful [brunch][lk-brunchio] boilerplate that allows you to create such widgets very efficiently. It encourages best practices in all aspects and assumes coffee-script for js and jade for html. You can use any css framework / pre-processor of your choice.
 
 
+Definition
+----------
+What is a web widget?
+
+A web wedget is basically a web-based application that is designed to be embedded anywhere. Use cases include but aren't limited to
+
+- An insurance company's travel product purchase flow inside an airline's online purchase flow as a middle step
+- A hardware spec comparison widget inside an online hardware store
+- A chat window inside a product catalogue
+
+Your imagination is the limit.
+
+
 Usage
 -----
 ###### 1. Be sure you have [brunch][lk-brunch-io] installed
