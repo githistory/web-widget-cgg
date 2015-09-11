@@ -5,10 +5,11 @@ Definition
 ----------
 What is a web widget?
 
-A web wedget is basically a web-based application that is designed to be embedded anywhere. Use cases include but aren't limited to
+A web widget is basically a web-based application that is designed to be embedded anywhere. Use cases include but aren't limited to
 
 - An insurance company's travel product purchase flow inside an airline's online purchase flow as a middle step
 - A hardware spec comparison widget inside an online hardware store
+- An investment product selection and purchase flow inside a bank's post login dashboard
 - A chat window inside a product catalogue
 
 Your imagination is the limit.
