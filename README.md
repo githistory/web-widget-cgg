@@ -1,4 +1,4 @@
-Ever thought about embedding your web based widgets into any website? This is a powerful [brunch][lk-brunchio] boilerplate that allows you to create such widgets very efficiently. It assumes coffee-script for js and jade for html. You can use any css pre-processor of your choice.
+Ever thought about embedding your web based widgets into any website? This is a powerful [brunch][lk-brunchio] boilerplate that allows you to create such widgets very efficiently. It encourages best practices in all aspects and assumes coffee-script for js and jade for html. You can use any css framework / pre-processor of your choice.
 
 
 Usage
@@ -41,6 +41,8 @@ Notes
 - No CSS pre-processor is assumed. You're free to choose your favorite. Less, Sass, Stylus compilers are included.
 
 
+Copyright
+---------
 
 Copyright © 2015 by William Huang
 

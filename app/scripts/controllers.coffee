@@ -1,5 +1,6 @@
 angular.module 'widget'
 
 .controller 'widget', ($scope)->
-  console.log $scope
+  $scope.false2true = ->
+    $scope.trueOrFalse = true
 
