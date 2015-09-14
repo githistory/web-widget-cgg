@@ -59,8 +59,10 @@ This starts [karma][lk-karma-io] with Chrome as the js engine. It watches for ch
 
 Also included in the example is an E2E test case against index.html. You can run it using protractor like this
 ```shell
-protractor protractor.conf.coffee
+protractor protractor.conf.coffee --baseUrl=http://localhost:8080
 ```
+with baseUrl being the base url the server is running on.
+
 Be sure to consult protractor documentation for the setup before issuing above command.
 
 
