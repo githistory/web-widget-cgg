@@ -3,6 +3,7 @@ exports.config =
     wrapper: false
   paths:
     public: './dist'
+    watched: ['app']
   conventions:
     assets: /^app\/assets/
   files:
