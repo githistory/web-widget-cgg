@@ -3,13 +3,14 @@ exports.config =
     wrapper: false
   paths:
     public: './dist'
-    watched: ['app']
+    watched: ['app', 'demo']
   conventions:
     assets: /^app\/assets/
   files:
     javascripts:
       joinTo:
         'js/widget.js': /^(app|bower_components)/
+        'js/demo.js': /^demo/
       order:
         after: [
           'app/scripts/**/*.coffee'
@@ -21,6 +22,7 @@ exports.config =
     templates:
       joinTo:
         'js/widget.js': /^app/
+        'js/demo.js': /^demo/
       order:
         after: [
           'app/**/*.jade'
@@ -30,13 +32,13 @@ exports.config =
     ng_annotate:
       pattern: /^app/
     angularTemplate:
-      moduleName: 'widget'
+      moduleName: 'cgg.widget'
       pathToSrc: (old)->
         old.replace(/\.jade$/, '')
       ignore: [/^.*\.static\.jade/]
     jadePages:
       destination: (path) ->
-        path.replace /^app\/(.*)\.static\.jade$/, '$1.html'
+        path.replace /^(app|demo)\/(.*)\.static\.jade$/, '$2.html'
       pattern: /^.*\.static\.jade/
       jade:
         pretty: true

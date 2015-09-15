@@ -1,0 +1,6 @@
+.cgg-progress
+  .cgg-progress__bar-container(style='background-color:{{colorMinor}}')
+    .cgg-progress__bar(style='background-color:{{color}}; width:{{value/max*100}}%')
+  .cgg-progress__step-icon-container
+    .cgg-progress__step-icon(ng-repeat='step in sortedSteps', style='left:{{step.value/max*100}}%; background-color:{{step.color}}')
+      i(class='m-cgg-icon--{{step.icon}}')

@@ -1,0 +1,12 @@
+doctype html
+
+html
+  head
+    link(rel='stylesheet', href='css/widget.css')
+    script(src='js/widget.js')
+    script(src='js/demo.js')
+
+  body.cgg-widget(ng-app='cgg.widget.demo', ng-controller='demo')
+    cgg-progress(value='progress.value', steps='progress.steps', color='#53bfd8')
+    input(type='number', max='{{max}}', min='0', ng-model='progress.value')
+

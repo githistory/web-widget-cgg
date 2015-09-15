@@ -21,9 +21,21 @@
   ],
   "dependencies": {
     "angular": "~1.4.5",
-    "jquery": "~2.1.4"
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+    "iconia-cgg-icomoon": "git@github.com:compareasiagroup/iconia.git",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "tinycolor": "~1.2.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": []
+    },
+    "iconia-cgg-icomoon": {
+      "main": []
+    }
   }
 }

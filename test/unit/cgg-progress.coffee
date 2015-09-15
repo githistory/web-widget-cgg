@@ -1,5 +1,4 @@
-
-describe 'controllers', ->
+describe 'controller', ->
 
   $controller = null
 
